@@ -1,0 +1,27 @@
+.primera{
+	height: 200px;
+    width: 1000px;
+}
+
+h1{
+ 	 	color: red;
+ 	 }
+
+
+ table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+     } 
+
+ th, td {
+        padding: 15px;
+      }
+
+.imagen{
+
+    height: 200px;
+    width: 200px;
+	 } 
+
+
+
