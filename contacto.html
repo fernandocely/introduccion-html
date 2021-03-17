@@ -4,18 +4,37 @@
  
   <title>Contacto</title>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css"  >
 
 </head>
  
-<body >
+<body class="card-img-top" style="background-image:url('img/.jpg')">
+  <img class="card-img-top" src="img/encabezado.jpg" alt="RFCS"  style="width:100%;height:200px;border: 2px solid white;"/>
+  <header id="main-header">
+   
+  <nav style=" float: right;">
+      <ul>
+
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        
+      </ul>
+    </nav>
+ 
+  </header>
+ 
+  
+  <section id="main-content">
+  
+   <article>
  
     <div class="container" style="width:700px;">
           <div class="well well-sm">
                    <form id="contactform" action="" name="contactform" method="post">
-                  
+                    <fieldset>
                       
                         <legend style="font-size:35px;"class="text-center header">Informacion de contacto</legend>
-                        <div class="form-group">
+                        <div class="form-group"> <hr>
                         	    <input name="nombre" type="text" id="nombre" placeholder="Nombre" class="form-control" required>
                         </div>
 
@@ -37,13 +56,20 @@
                             </div>
                             
                         </div>
-                        <hr>
-                        <a href="index.html">Inicio</a>
-                  
+                       
+                    </fieldset>
                </form>
             </div>
    </div>
       
-   
+   </article> 
+  
+  </section> 
+ 
+    
+  <footer id="main-footer">
+    <p>&copy; 2021 R.F.C.S</p>
+  </footer> 
+  
 </body>
 </html>
