@@ -6,6 +6,18 @@ body {
   background: #f2f2f2; 
   font-size: 1em;
   line-height: 1.5em;
+  /* Aquí el origen de la imagen */
+  background-image: url(img/fondo2.jpg);
+   /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
+  background-position: center center;
+  /* Esta imagen no debe de repetirse */
+  background-repeat: no-repeat;
+  /* COn esta regla fijamos la imagen en la pantalla. */
+  background-attachment: fixed;
+  /* La imagen ocupa el 100% y se reescala */
+  background-size: cover;
+  /* Damos un color de fondo mientras la imagen está cargando  */
+  background-color: #464646;
 }
 
 .primera{
@@ -102,7 +114,7 @@ nav ul li a:hover {
 #main-content {
   background: white;
   width: 90%;
-  max-width: 810px;
+  max-width: 70%;
   margin: 20px auto;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
